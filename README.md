@@ -1,4 +1,4 @@
-# tetration
+# Tetration
 These are scripts that I use on the Cisco Tetration platform. 
 
 ------------------------------------------------------------------------------------------------------------------------------
@@ -13,7 +13,7 @@ The above .csv would create 2 scopes named Web Servers and Database Servers that
 
 Additionally the parent_app_scope_id on line 30 needs to be defined, this can be found in the GUI by clicking on the scope and looking at the ID in the URI. 
 
-Type:contains on line 26 can be changed to eq or other regex expressions to match your need. The field value on line 27 can match any of the Tetration fields of your choosing.
+Type:contains on line 26 can be changed to eq or other regex expressions to match your need. The field value on line 27 can match any of the Tetration fields/annotations of your choosing.
 
 This is particularly useful script when you have thousands of scopes to create as I did.
 
