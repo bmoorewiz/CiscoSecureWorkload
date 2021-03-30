@@ -3,7 +3,6 @@ These are scripts that I use on the Cisco Tetration platform.
 
 ------------------------------------------------------------------------------------------------------------------------------
 Create Scopes Python
-Create CreateScopes.py
 This requires the tetpyclient; pip install tetpyclient
 
 This code will take a CSV file named on line 7 that has hostname contains query data in column 0 and scope name in column 1.
