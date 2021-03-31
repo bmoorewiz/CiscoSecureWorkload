@@ -19,3 +19,11 @@ Type:contains on line 26 can be changed to eq or other regex expressions to matc
 This is particularly useful script when you have thousands of scopes to create as I did.
 
 ------------------------------------------------------------------------------------------------------------------------------
+Search Agents Python
+This requires the tetpyclient; pip install tetpyclient
+It also requires a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
+
+This python code will take a search string located on line 6 and search for any host in the scopes named on line 12 and return all agents matching that string. The exact boolean strings such as contains or eq or the fields such as hostname or other annotations can be changed on line 17. 
+Line 26 can return any json keys or annotations assigned to the filtered endpoints, currently it returns IP and hostname. 
+
+------------------------------------------------------------------------------------------------------------------------------
