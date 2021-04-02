@@ -17,7 +17,7 @@ All scripts also require a credentials.json file, instructions here: https://www
 ------------------------------------------------------------------------------------------------------------------------------
 Create Scopes Python    
 More Details  
-This code will take a CSV file named on line 7 that has hostname contains query data in column 0(line 28) and scope name in column 1(line 24).
+This code will take a CSV file named on line 7 that has hostname contains query data in column 0(line 28) and scope name in column 1(line 24).  
 appss.csv  
 web Web Servers  
 DB Database Servers  
