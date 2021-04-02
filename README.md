@@ -8,7 +8,7 @@ git clone https://github.com/bmoorewiz/CiscoSecureWorkload
 #install tetpyclient  
 pip install tetpyclient  
 #define csv file on line 7 of CreateScopes.py  
-#Dedine API_Endpoint with the Tetration IP address or hostname  
+#Define API_Endpoint with the Tetration IP address or hostname  
 #run python, python 3 required  
 python3 CreateScopes.py  
 
