@@ -3,6 +3,9 @@ These are scripts that I use on the Cisco Tetration platform.
 
 ------------------------------------------------------------------------------------------------------------------------------
 Create Scopes Python
+
+<u>Usage</u>
+
 This requires the tetpyclient; pip install tetpyclient
 It also requires a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
 
