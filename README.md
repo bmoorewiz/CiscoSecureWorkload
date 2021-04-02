@@ -2,8 +2,7 @@
 These are scripts that I use on the Cisco Tetration platform, the Usage section applies to all scripts in this repository.
 
 ------------------------------------------------------------------------------------------------------------------------------
-Usage
-
+Usage  
 #Either clone the repository as below, or simply download the python files, included in the repository is sample credentials and csv files. You must use your own or modify the ones in the repository. 
 git clone https://github.com/bmoorewiz/CiscoSecureWorkload
 #install tetpyclient
@@ -16,9 +15,8 @@ python3 CreateScopes.py
 All scripts also require a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
 
 ------------------------------------------------------------------------------------------------------------------------------
-Create Scopes Python
-
-More Details
+Create Scopes Python  
+More Details  
 This code will take a CSV file named on line 7 that has hostname contains query data in column 0(line 28) and scope name in column 1(line 24).
 appss.csv
 web Web Servers
