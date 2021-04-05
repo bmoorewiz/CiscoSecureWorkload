@@ -8,13 +8,13 @@ git clone https://github.com/bmoorewiz/CiscoSecureWorkload
 ## install tetpyclient  
 pip install tetpyclient  
 ## define csv file 
-### On line 7 of CreateScopes.py  
+On line 7 of CreateScopes.py  
 ## Define API_Endpoint with the Tetration IP address or hostname
-### On line 6 of CreateScopes.py and on line 5 of SearchAgents.py
+On line 6 of CreateScopes.py and on line 5 of SearchAgents.py
 ## run python, python 3 required  
 python3 CreateScopes.py  
 
-# All scripts also require a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
+All scripts also require a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
 
 ------------------------------------------------------------------------------------------------------------------------------
 # Create Scopes Python    
