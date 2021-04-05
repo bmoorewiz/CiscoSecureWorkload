@@ -8,7 +8,7 @@ git clone https://github.com/bmoorewiz/CiscoSecureWorkload
 ## install tetpyclient  
 pip install tetpyclient  
 ## Define API_Endpoint with the Tetration IP address or hostname
-On line 6 of CreateScopes.py and on line 5 of SearchAgents.py
+On line 6 of CreateScopes.py and on line 5 of SearchAgents.py please put a value for the IP address IE, API_ENDPOINT="https://1.1.1.1"
 ## run python, python 3 required  
 python3 CreateScopes.py
 python3 SearchAgents.py
