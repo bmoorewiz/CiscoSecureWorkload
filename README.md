@@ -21,7 +21,7 @@ All scripts also require a credentials.json file, instructions here: https://www
 ### define csv file 
 On line 7 of CreateScopes.py  
 
-# More Details  
+## More Details  
 This code will take a CSV file named on line 7 that has hostname contains query data in column 0(line 28) and scope name in column 1(line 24).  
 appss.csv  
 web Web Servers  
@@ -36,7 +36,7 @@ This is particularly useful script when you have thousands of scopes to create a
 
 ------------------------------------------------------------------------------------------------------------------------------
 # Search Agents Python  
-More Details  
+## More Details  
 This python code will take a search string located on line 6 and search for any host in the scopes named on line 12 and return all agents matching that string. The exact boolean strings such as contains or eq or the fields such as hostname or other annotations can be changed on line 17.   
 Line 26 can return any json keys or annotations assigned to the filtered endpoints, currently it returns IP and hostname.   
 
