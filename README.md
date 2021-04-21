@@ -13,6 +13,7 @@ On line 6 of CreateScopes.py and on line 5 of SearchAgents.py please put a value
 ## run python (python 3 required)
     python3 CreateScopes.py
     python3 SearchAgents.py
+    python3 SearchScopes.py ScopeFun <--Case sensitve search string
 
 All scripts also require a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
 
@@ -42,3 +43,7 @@ This python code will take a search string located on line 6 and search for any 
 Line 26 can return any json keys or annotations assigned to the filtered endpoints, currently it returns IP and hostname.   
 
 ------------------------------------------------------------------------------------------------------------------------------
+# Search Scopes Python  
+## More Details  
+This python code searches all scopes for full scopes names and returns anything that matches. Please note this is case sensitive. The first argument is used as the search string IE: python3 SearchScopes.py ScopeFun
+Also, as usual, the IP address of the Tetration cluster is required as well as the credentials.json file. 
