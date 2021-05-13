@@ -47,3 +47,9 @@ Line 26 can return any json keys or annotations assigned to the filtered endpoin
 ## More Details  
 This python code searches all scopes for full scopes names and returns anything that matches. Please note this is case sensitive. The first argument is used as the search string IE: python3 SearchScopes.py ScopeFun
 Also, as usual, the IP address of the Tetration cluster is required as well as the credentials.json file. 
+
+------------------------------------------------------------------------------------------------------------------------------
+# Delete Agents Matching Search Python  
+## More Details  
+This python code searches the scopes on line 14 with the search filter from line 11 and then finds all agents that match that search filter on the cluster and permantently deletes them. Please be aware this cannot be undone. I use this to delete ISE agents that match host-. 
+Also, as usual, the IP address of the Tetration cluster is required as well as the credentials.json file. 
