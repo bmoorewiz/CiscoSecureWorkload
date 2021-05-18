@@ -14,6 +14,8 @@ On line 6 of CreateScopes.py and on line 5 of SearchAgents.py please put a value
     python3 CreateScopes.py
     python3 SearchAgents.py
     python3 SearchScopes.py ScopeFun <--Case sensitve search string
+    python3 DeleteAgentsMatchingSearch.py 
+    Python3 DeleteEmptyScopesPython.py Default:Scope1:
 
 All scripts also require a credentials.json file, instructions here: https://www.cisco.com/c/en/us/td/docs/security/workload_security/tetration-analytics/sw/config/b_Tetration_OpenAPI/m_OpenAPI_Authentication.html
 
@@ -53,3 +55,10 @@ Also, as usual, the IP address of the Tetration cluster is required as well as t
 ## More Details  
 This python code searches the scopes on line 14 with the search filter from line 11 and then finds all agents that match that search filter on the cluster and permantently deletes them. Please be aware this cannot be undone. I use this to delete ISE agents that match host-. 
 Also, as usual, the IP address of the Tetration cluster is required as well as the credentials.json file. 
+
+------------------------------------------------------------------------------------------------------------------------------
+# Delete Empty Scopes Python  
+## More Details  
+This python code searches the pattern you provide when running the python. For example "python3 DeleteEmptyScopes.py Default:Scope1:" This would delete any scopes in your scope tree that are BENEATH Scope1 and that also have 0 inventory items. This is good for large scale deployments where you have many scopes. 
+Also, as usual, the IP address of the Tetration cluster is required as well as the credentials.json file. 
+
